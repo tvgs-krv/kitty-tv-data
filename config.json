@@ -1,0 +1,648 @@
+{
+  "schema": 1,
+  "mirrors": [
+    "https://raw.githubusercontent.com/tvgs-krv/kitty-tv-data/main/",
+    "https://cdn.jsdelivr.net/gh/tvgs-krv/kitty-tv-data@main/"
+  ],
+  "epg": "epg.json",
+  "channels": [
+    {
+      "id": "1tv",
+      "name": "Первый канал",
+      "epgId": "pervy",
+      "sources": [
+        {
+          "resolve": "1tv-hls"
+        },
+        {
+          "resolve": "1tv-hls-2"
+        },
+        {
+          "url": "https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd"
+        }
+      ]
+    },
+    {
+      "id": "russia1",
+      "name": "Россия 1",
+      "epgId": "rossia1",
+      "sources": [
+        {
+          "url": "https://stream.smotrim.ru/hls2/russia_hd/playlist_6.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ntv",
+      "name": "НТВ",
+      "epgId": "ntv",
+      "sources": [
+        {
+          "url": "http://cdn.ntv.ru/ntv0/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "5tv",
+      "name": "Пятый канал",
+      "epgId": "5kanal-ru",
+      "sources": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tvc",
+      "name": "ТВ Центр",
+      "epgId": "tvcentr",
+      "sources": [
+        {
+          "url": "http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ren",
+      "name": "РЕН ТВ",
+      "epgId": "rentv",
+      "sources": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tv3",
+      "name": "ТВ-3",
+      "epgId": "tv3-ru",
+      "sources": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "zvezda",
+      "name": "Звезда",
+      "epgId": "zvezda",
+      "sources": [
+        {
+          "url": "http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "otr",
+      "name": "ОТР",
+      "epgId": "otr",
+      "sources": [
+        {
+          "url": "http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "mir",
+      "name": "Мир",
+      "epgId": "mir",
+      "sources": [
+        {
+          "url": "http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "vremya",
+      "name": "Время",
+      "epgId": "vremia",
+      "sources": [
+        {
+          "url": "http://31.210.208.171:8080/vremya/index.m3u8?token=+W2MSER"
+        }
+      ]
+    },
+    {
+      "id": "spb",
+      "name": "Санкт-Петербург",
+      "epgId": "sankt-peterburg",
+      "sources": [
+        {
+          "url": "http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "russia24",
+      "name": "Россия 24",
+      "epgId": "rossia-24",
+      "sources": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "sts",
+      "name": "СТС",
+      "epgId": "sts",
+      "sources": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "tnt",
+      "name": "ТНТ",
+      "epgId": "tnt",
+      "sources": [
+        {
+          "url": "https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=M9H6z-O74nqbdC30HqutIw&e=2070623480&scheme=https"
+        }
+      ]
+    },
+    {
+      "id": "domashniy",
+      "name": "Домашний",
+      "epgId": "domashny",
+      "sources": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "pyatnica",
+      "name": "Пятница!",
+      "epgId": "piatnica",
+      "sources": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "u",
+      "name": "Ю",
+      "epgId": "yu",
+      "sources": [
+        {
+          "url": "https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https"
+        }
+      ]
+    },
+    {
+      "id": "2x2",
+      "name": "2x2",
+      "epgId": "2na2",
+      "sources": [
+        {
+          "url": "http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/variant.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "domkino",
+      "name": "Дом Кино",
+      "epgId": "domkino",
+      "sources": [
+        {
+          "url": "https://streaming.televizor-24-tochka.ru/live/44.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ntv-serial",
+      "name": "НТВ Сериал",
+      "epgId": "ntv-serial",
+      "sources": [
+        {
+          "url": "https://cdn.ntv.ru/th_serial/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "ntv-hit",
+      "name": "НТВ Хит",
+      "epgId": "ntv-xit",
+      "sources": [
+        {
+          "url": "http://cdn2.ntv.ru/th_hit/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "sovkino",
+      "name": "Советское кино",
+      "epgId": "sovkino",
+      "sources": [
+        {
+          "url": "http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "mosfilm",
+      "name": "Мосфильм. Золотая коллекция",
+      "epgId": "mosfilm",
+      "sources": [
+        {
+          "url": "http://185.121.1.163:8083/Mosfilm/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "lubimoe-kino",
+      "name": "Любимое кино",
+      "epgId": "lubimoe-kino",
+      "sources": [
+        {
+          "url": "http://31.210.208.171:8080/lubimoe_kino/index.m3u8?token=+W2MSER"
+        }
+      ]
+    },
+    {
+      "id": "evrokino",
+      "name": "Еврокино",
+      "epgId": "evrokino",
+      "sources": [
+        {
+          "url": "http://176.118.197.101/Evrokino/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "kino-tv",
+      "name": "Кино ТВ",
+      "epgId": "kino-tv",
+      "sources": [
+        {
+          "url": "http://194.152.35.17/kino-tv/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "kinoman",
+      "name": "Киноман",
+      "epgId": "kinosat",
+      "sources": [
+        {
+          "url": "http://185.121.1.163:8083/Kinoman/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "fan",
+      "name": "FAN",
+      "epgId": "fanhd",
+      "sources": [
+        {
+          "url": "http://31.210.208.171:8080/fan/index.m3u8?token=+W2MSER"
+        }
+      ]
+    },
+    {
+      "id": "tv1000-action",
+      "name": "viju TV1000 Action",
+      "epgId": "tv1000-action",
+      "sources": [
+        {
+          "url": "https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "retrovision",
+      "name": "Retrovision",
+      "sources": [
+        {
+          "url": "https://lbgo.bozztv.com/07/ushba-rvision/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "retrovision-classic",
+      "name": "Retrovision Classic",
+      "sources": [
+        {
+          "url": "https://lbgo.bozztv.com/07/ushba-rvisionclassic/tracks-v1a1/mono.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "retrovision-motor",
+      "name": "Retrovision Motor",
+      "sources": [
+        {
+          "url": "https://lbgo.bozztv.com/07/ushba-rvisionmotor/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "retrovision-movies",
+      "name": "Retrovision Movies",
+      "sources": [
+        {
+          "url": "https://lbgo.bozztv.com/07/ushba-rvisionmovies/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "retrovision-kinopanorama",
+      "name": "Retrovision Кинопанорама",
+      "sources": [
+        {
+          "url": "https://lbgo.bozztv.com/07/ushba-rvisionkinopanorama/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "videokasseta",
+      "name": "Видеокассета",
+      "sources": [
+        {
+          "url": "https://kinowalk.hopto.org/vhs90e_live"
+        }
+      ]
+    },
+    {
+      "id": "cityedem-asia",
+      "name": "Сити Эдем — КиноАзия",
+      "epgId": "cityedem-kinoazia",
+      "sources": [
+        {
+          "url": "https://cityeden.catcast.tv/content/34393/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "cityedem-classic",
+      "name": "Сити Эдем — КиноКлассика",
+      "epgId": "cityedem-kinoklas",
+      "sources": [
+        {
+          "url": "https://cityeden.catcast.tv/content/34185/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "cityedem-mystic",
+      "name": "Сити Эдем — КиноМистика",
+      "epgId": "cityedem-kinomist",
+      "sources": [
+        {
+          "url": "https://cityeden.catcast.tv/content/40783/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "smotrim-kino",
+      "name": "Смотрим: кино и сериалы",
+      "sources": [
+        {
+          "url": "http://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "discovery",
+      "name": "Discovery Channel",
+      "epgId": "discovery-channel",
+      "sources": [
+        {
+          "url": "http://5.188.159.128:8070/DiscoveryChannel/index.m3u8"
+        },
+        {
+          "url": "http://stream.mcquack.net/177/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "animal-planet",
+      "name": "Animal Planet",
+      "epgId": "animal-planet-eu",
+      "sources": [
+        {
+          "url": "http://stream.mcquack.net/114/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "nat-geo-wild",
+      "name": "Nat Geo Wild",
+      "epgId": "nat-geo-wild",
+      "sources": [
+        {
+          "url": "https://stream8.cinerama.uz/1042/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "da-vinci",
+      "name": "Da Vinci",
+      "epgId": "da-vinci",
+      "sources": [
+        {
+          "url": "http://stream.mcquack.net/238/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "viju-history",
+      "name": "viju History",
+      "epgId": "viasat-history",
+      "sources": [
+        {
+          "url": "http://178.124.179.122:8080/HistoryHD/index.m3u8"
+        },
+        {
+          "url": "http://flussonic.mkpnet.ru/tv-687ba838ca927b9a/video.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "viju-explore",
+      "name": "viju Explore",
+      "epgId": "viasat-explore",
+      "sources": [
+        {
+          "url": "http://31.210.208.171:8080/viju_explore/index.m3u8?token=+W2MSER"
+        },
+        {
+          "url": "http://stream.mcquack.net/239/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "travel-adventure",
+      "name": "Travel+Adventure",
+      "epgId": "travel-adventure",
+      "sources": [
+        {
+          "url": "http://stream.mcquack.net/206/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "zhivaya-priroda",
+      "name": "Живая природа",
+      "epgId": "zhivaya-priroda",
+      "sources": [
+        {
+          "url": "https://stream8.cinerama.uz/1411/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "v-mire-zhivotnyh",
+      "name": "В мире животных",
+      "epgId": "v-mire-zhivotnyx-hd",
+      "sources": [
+        {
+          "url": "https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "domashnie-zhivotnye",
+      "name": "Домашние животные",
+      "epgId": "domashnie-zhivotnye",
+      "sources": [
+        {
+          "url": "https://stream8.cinerama.uz/1426/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "neizv-rossiya",
+      "name": "Неизвестная Россия",
+      "epgId": "neizvestnaya-rosia",
+      "sources": [
+        {
+          "url": "http://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "neizv-planeta",
+      "name": "Неизвестная планета",
+      "epgId": "neizvestnaya-planeta",
+      "sources": [
+        {
+          "url": "http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "travel-channel",
+      "name": "Travel Channel",
+      "epgId": "travel-channel",
+      "sources": [
+        {
+          "url": "http://stream.mcquack.net/231/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "travelxp",
+      "name": "Travel XP",
+      "epgId": "travel-xp-hd",
+      "sources": [
+        {
+          "url": "http://stream.mcquack.net/451/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "nauka",
+      "name": "Наука",
+      "epgId": "nauka-20",
+      "sources": [
+        {
+          "url": "https://vod.tuva.ru/nauka2/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "nano",
+      "name": "Nano",
+      "epgId": "nano-hd",
+      "sources": [
+        {
+          "url": "http://185.23.80.23:8080/NANO_HD/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "rtd",
+      "name": "RT Документальный",
+      "epgId": "rtd-ru",
+      "sources": [
+        {
+          "url": "http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "smotrim-fakty",
+      "name": "Смотрим 100% Факты",
+      "epgId": "smotrim-100-fakty",
+      "sources": [
+        {
+          "url": "https://stream.smotrim.ru/hls2/fasttv06/playlist_3.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "zdorovoe",
+      "name": "Здоровое ТВ",
+      "epgId": "zdorovoe-tv",
+      "sources": [
+        {
+          "url": "http://flussonic.mkpnet.ru/tv-92fa9d648cab0f3f/video.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "zagorodnaya",
+      "name": "Загородная жизнь",
+      "epgId": "zagorodnaya-zhizn",
+      "sources": [
+        {
+          "url": "http://185.57.68.33/40/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "usadba",
+      "name": "Усадьба",
+      "epgId": "usadba",
+      "sources": [
+        {
+          "url": "https://stream8.cinerama.uz/1427/index.m3u8"
+        }
+      ]
+    },
+    {
+      "id": "kuhnya",
+      "name": "Кухня ТВ",
+      "epgId": "kuxnia-tv",
+      "sources": [
+        {
+          "url": "http://mfe02.cliptv.az/dash/Kuxnya_TV_SDlao150.ism/playlist.mpd"
+        }
+      ]
+    }
+  ],
+  "resolvers": {
+    "1tv-hls": {
+      "url": "https://stream.1tv.ru/api/playlist/1tvch_as_array.json",
+      "pick": "hls[0]"
+    },
+    "1tv-hls-2": {
+      "url": "https://stream.1tv.ru/api/playlist/1tvch_as_array.json",
+      "pick": "hls[1]"
+    }
+  }
+}
