@@ -413,16 +413,6 @@
       ]
     },
     {
-      "id": "nat-geo-wild",
-      "name": "Nat Geo Wild",
-      "epgId": "nat-geo-wild",
-      "sources": [
-        {
-          "url": "https://stream8.cinerama.uz/1042/index.m3u8"
-        }
-      ]
-    },
-    {
       "id": "da-vinci",
       "name": "Da Vinci",
       "epgId": "da-vinci",
@@ -465,36 +455,6 @@
       "sources": [
         {
           "url": "http://stream.mcquack.net/206/index.m3u8"
-        }
-      ]
-    },
-    {
-      "id": "zhivaya-priroda",
-      "name": "Живая природа",
-      "epgId": "zhivaya-priroda",
-      "sources": [
-        {
-          "url": "https://stream8.cinerama.uz/1411/index.m3u8"
-        }
-      ]
-    },
-    {
-      "id": "v-mire-zhivotnyh",
-      "name": "В мире животных",
-      "epgId": "v-mire-zhivotnyx-hd",
-      "sources": [
-        {
-          "url": "https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8"
-        }
-      ]
-    },
-    {
-      "id": "domashnie-zhivotnye",
-      "name": "Домашние животные",
-      "epgId": "domashnie-zhivotnye",
-      "sources": [
-        {
-          "url": "https://stream8.cinerama.uz/1426/index.m3u8"
         }
       ]
     },
@@ -595,16 +555,6 @@
       "sources": [
         {
           "url": "http://185.57.68.33/40/index.m3u8"
-        }
-      ]
-    },
-    {
-      "id": "usadba",
-      "name": "Усадьба",
-      "epgId": "usadba",
-      "sources": [
-        {
-          "url": "https://stream8.cinerama.uz/1427/index.m3u8"
         }
       ]
     },
