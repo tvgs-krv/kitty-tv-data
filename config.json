@@ -7,22 +7,6 @@
   "epg": "epg.json",
   "channels": [
     {
-      "id": "1tv",
-      "name": "Первый канал",
-      "epgId": "pervy",
-      "sources": [
-        {
-          "resolve": "1tv-hls"
-        },
-        {
-          "resolve": "1tv-hls-2"
-        },
-        {
-          "url": "https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd"
-        }
-      ]
-    },
-    {
       "id": "russia1",
       "name": "Россия 1",
       "epgId": "rossia1",
@@ -634,15 +618,5 @@
         }
       ]
     }
-  ],
-  "resolvers": {
-    "1tv-hls": {
-      "url": "https://stream.1tv.ru/api/playlist/1tvch_as_array.json",
-      "pick": "hls[0]"
-    },
-    "1tv-hls-2": {
-      "url": "https://stream.1tv.ru/api/playlist/1tvch_as_array.json",
-      "pick": "hls[1]"
-    }
-  }
+  ]
 }
