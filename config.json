@@ -418,8 +418,7 @@
       "epgId": "nat-geo-wild",
       "sources": [
         {
-          "url": "https://stream8.cinerama.uz/1042/index.m3u8",
-          "proxy": true
+          "url": "https://stream8.cinerama.uz/1042/index.m3u8"
         }
       ]
     },
@@ -475,8 +474,7 @@
       "epgId": "zhivaya-priroda",
       "sources": [
         {
-          "url": "https://stream8.cinerama.uz/1411/index.m3u8",
-          "proxy": true
+          "url": "https://stream8.cinerama.uz/1411/index.m3u8"
         }
       ]
     },
@@ -486,8 +484,7 @@
       "epgId": "v-mire-zhivotnyx-hd",
       "sources": [
         {
-          "url": "https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8",
-          "proxy": true
+          "url": "https://stream8.cinerama.uz/1404/tracks-v1a1/mono.m3u8"
         }
       ]
     },
@@ -497,8 +494,7 @@
       "epgId": "domashnie-zhivotnye",
       "sources": [
         {
-          "url": "https://stream8.cinerama.uz/1426/index.m3u8",
-          "proxy": true
+          "url": "https://stream8.cinerama.uz/1426/index.m3u8"
         }
       ]
     },
@@ -608,8 +604,7 @@
       "epgId": "usadba",
       "sources": [
         {
-          "url": "https://stream8.cinerama.uz/1427/index.m3u8",
-          "proxy": true
+          "url": "https://stream8.cinerama.uz/1427/index.m3u8"
         }
       ]
     },
